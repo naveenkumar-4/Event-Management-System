@@ -1,0 +1,50 @@
+/* Global styles for the entire app */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #6200ea;
+  padding: 1rem;
+  color: white;
+}
+
+main {
+  flex: 1;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #6200ea;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+a {
+  color: #6200ea;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

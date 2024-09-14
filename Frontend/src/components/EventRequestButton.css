@@ -1,0 +1,60 @@
+
+.event-request-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Request button styling */
+  .request-button {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .request-button:hover {
+    background-color: #4e00b5;
+    transform: translateY(-2px);
+  }
+  
+  .request-button:active {
+    transform: translateY(0px);
+  }
+  
+  /* Styling for the message after the request is made */
+  .status-message {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e0f7e0;
+    border: 1px solid #a4d3a4;
+    border-radius: 4px;
+    color: #2f7030;
+    font-size: 0.9rem;
+  }
+  
+  /* Error message styling (if needed) */
+  .status-message.error {
+    background-color: #fdecea;
+    border-color: #f5c6cb;
+    color: #721c24;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .request-button {
+      width: 100%;
+      padding: 12px;
+      font-size: 1.1rem;
+    }
+  
+    .status-message {
+      font-size: 0.85rem;
+    }
+  }
+  

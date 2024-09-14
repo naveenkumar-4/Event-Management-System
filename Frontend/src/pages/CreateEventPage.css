@@ -1,0 +1,90 @@
+
+.create-event-page {
+  width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.create-event-page h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Form and inputs */
+.create-event-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.create-event-page label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.create-event-page input,
+.create-event-page textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: border 0.3s ease;
+}
+
+.create-event-page input:focus,
+.create-event-page textarea:focus {
+  border: 1px solid #6200ea;
+  background-color: #fff;
+}
+
+/* Button styling */
+.create-event-page button {
+  padding: 0.75rem 1rem;
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.create-event-page button:hover {
+  background-color: #3700b3;
+  transform: translateY(-2px);
+}
+
+.create-event-page button:active {
+  transform: translateY(0);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .create-event-page {
+    padding: 1rem;
+    margin: 1rem auto;
+  }
+
+  .create-event-page h2 {
+    font-size: 1.5rem;
+  }
+
+  .create-event-page input,
+  .create-event-page textarea {
+    font-size: 0.9rem;
+  }
+
+  .create-event-page button {
+    font-size: 1rem;
+  }
+}
